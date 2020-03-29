@@ -13,10 +13,11 @@
             <h2 class="text-center">Phone Verification</h2>
         </div>
         <!--/*@thymesVar id="checkNumber" type="com.kotlin.phonenumberverification.domain.entity.CheckNumber"*/-->
-        <form action="#" th:action="@{/verify}" th:object="${checkNumber}" method="post">
+        <form action="#" th:action="@{/verify}" method="post">
             <table>
                 <tr>
-                   <p>Please Enter Your Phone Number: <td><input name="phoneNumber" type="text" th:field="*{phoneNumber}"></td></p>
+
+                   <p>Please Enter Your Phone Number: <td><input name="phoneNumber" type="text" ></td></p>
 
                     <td><input type="submit" value="Submit"/></td>
                 </tr>
